@@ -82,7 +82,11 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <a href="/" rel="noopener noreferrer" target="blank">
+                    <a
+                      href="https://github.com/addiefancensie"
+                      rel="noopener noreferrer"
+                      target="blank"
+                    >
                       <i className="fa fa-github" aria-hidden="true" />
                     </a>
                   </ListItemContent>
