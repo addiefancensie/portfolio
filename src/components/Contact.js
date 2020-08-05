@@ -54,8 +54,13 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-instagram" aria-hidden="true" />
-                    @addiefancensie
+                    <a
+                      href="https://www.instagram.com/addiefancensie/"
+                      rel="noopener noreferrer"
+                      target="blank"
+                    >
+                      <i className="fa fa-instagram" aria-hidden="true" />
+                    </a>
                   </ListItemContent>
                 </ListItem>
 
@@ -63,8 +68,13 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-linkedin" aria-hidden="true" />
-                    aden-fancensie
+                    <a
+                      href="https://www.linkedin.com/in/aden-fancensie-06786b1b2"
+                      rel="noopener noreferrer"
+                      target="blank"
+                    >
+                      <i className="fa fa-linkedin" aria-hidden="true" />
+                    </a>
                   </ListItemContent>
                 </ListItem>
 
@@ -72,8 +82,9 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-github" aria-hidden="true" />
-                    @addiefancensie
+                    <a href="/" rel="noopener noreferrer" target="blank">
+                      <i className="fa fa-github" aria-hidden="true" />
+                    </a>
                   </ListItemContent>
                 </ListItem>
               </List>
